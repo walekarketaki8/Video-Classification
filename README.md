@@ -5,3 +5,6 @@ This project is implementation of the video classification method explained in [
 
 1. Dataset Details:<br>
 Collected dataset of videos. Created chunks of 15 frames(customizable) from videos. Divide those into train chunks and test chunks.
+
+2. Video classification architecture(explained in the article):
+
