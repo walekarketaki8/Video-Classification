@@ -8,12 +8,12 @@ Collected dataset of videos. Created chunks of 15 frames(customizable) from vide
 Dataset can be arranged as per our convenience. In this implementation datset is arrenged as follows
 ```bash
 --> videos
-    --> train
-        -> 1_1.mp4
-        -> 2_1.mp4
-    --> test
-        -> 1_15.mp4
-        -> 2_15.mp4
+    -> train
+       -> 1_1.mp4
+       -> 2_1.mp4
+    -> test
+       -> 1_15.mp4
+       -> 2_15.mp4
 ```
 
 2. Video classification architecture(explained in the article):
