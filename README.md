@@ -3,4 +3,5 @@
 
 This project is implementation of the video classification method explained in [this](https://dzone.com/articles/video-analysis-to-detect-suspicious-activity-based) article.
 
-
+1. Dataset Details:<br>
+Collected dataset of videos. Created chunks of 15 frames(customizable) from videos. Divide those into train chunks and test chunks.
