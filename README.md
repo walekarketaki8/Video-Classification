@@ -15,6 +15,7 @@ Dataset can be arranged as per our convenience. In this implementation datset is
        -> 1_15.mp4
        -> 2_15.mp4
 ```
+Use name of video as class label e.g. for 1_1.mp4 label is 1, for 2_1.mp4 label is 2 etc.
 
 2. Video classification architecture(explained in the article):
 ![Network Architecture](video_classification_Architecture.png)<br>
