@@ -8,3 +8,6 @@ Collected dataset of videos. Created chunks of 15 frames(customizable) from vide
 
 2. Video classification architecture(explained in the article):
 ![Network Architecture](video_classification_Architecture.png)<br>
+
+3. Implementation Details:<br>
+1.
