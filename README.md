@@ -10,4 +10,5 @@ Collected dataset of videos. Created chunks of 15 frames(customizable) from vide
 ![Network Architecture](video_classification_Architecture.png)<br>
 
 3. Implementation Details:<br>
-   1. Feature Extraction: We are using transfer learning technique to extract the features. We are extracting the result of the last pooling layer, which is a vector of 2,048 values (high-level feature map).
+   1. Feature Extraction on Image: We are using transfer learning technique to extract the features. We are extracting the result of the last pooling layer of Inception, which is a vector of 2,048 values (high-level feature map).This process is done frame by frame.To give our system a sense of the sequence. We are not considering single frames to make our final prediction. We take a group of frames(Here 15 frames) in order to classify not the frame but a segment of the video.
+   2. Sequence Learning: Concatenate group of feature maps(15 Frames) into one single pattern, which will be the input of second neural network, the recurrent one, to obtain the final classification of our system.
