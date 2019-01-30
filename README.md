@@ -5,7 +5,7 @@ This project is implementation of the video classification method explained in [
 
 1. Dataset Details:<br>
 Collected dataset of videos. Created chunks of 15 frames(customizable) from videos. Divide those into train chunks and test chunks.
-Dataset can be arranged as per our convenience. In this implementation datset is arrenged as follows, where each .mp4 file is a chunk of 15 frames.
+Dataset can be arranged as per our convenience. In this implementation datset is arrenged as follows, where each .mp4 file is a chunk of 15 frames.<br>
 ![Directory Structure](dir_structure.png)<br>
 
 Use name of video as class label e.g. for 1_1.mp4 label is 1, for 2_1.mp4 label is 2 etc.
