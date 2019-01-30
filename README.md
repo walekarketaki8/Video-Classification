@@ -7,13 +7,13 @@ This project is implementation of the video classification method explained in [
 Collected dataset of videos. Created chunks of 15 frames(customizable) from videos. Divide those into train chunks and test chunks.
 Dataset can be arranged as per our convenience. In this implementation datset is arrenged as follows
 ```bash
---> videos
-    -> train
-       -> 1_1.mp4
-       -> 2_1.mp4
-    -> test
-       -> 1_15.mp4
-       -> 2_15.mp4
+--- videos
+    -- train
+       -- 1_1.mp4
+       -- 2_1.mp4
+    -- test
+       -- 1_15.mp4
+       -- 2_15.mp4
 ```
 Use name of video as class label e.g. for 1_1.mp4 label is 1, for 2_1.mp4 label is 2 etc.
 
